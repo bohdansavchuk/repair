@@ -17,6 +17,8 @@ img {
   border: none;
   border-radius: 10px;
   padding: 18px 30px;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .header {
@@ -58,12 +60,13 @@ img {
 
 .header__adress {
   margin-bottom: 10px;
+  font-size: 13px;
 }
 
 .header__phone {
   color: #333333;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -136,7 +139,7 @@ img {
   line-height: 24px;
 }
 
-.hero-image {
+.hero-image__item {
   -webkit-box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.05), 16px 22px 35px rgba(0, 0, 0, 0.05);
           box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.05), 16px 22px 35px rgba(0, 0, 0, 0.05);
 }
