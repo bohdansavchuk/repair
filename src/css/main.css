@@ -1,5 +1,22 @@
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 300;
 }
 
 img {
@@ -16,8 +33,9 @@ img {
   background-color: #ffd200;
   border: none;
   border-radius: 10px;
-  padding: 18px 30px;
+  padding: 18px 28px;
   font-size: 13px;
+  font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
 }
 
@@ -59,13 +77,14 @@ img {
 }
 
 .header__adress {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   font-size: 13px;
 }
 
 .header__phone {
   color: #333333;
   font-size: 20px;
+  font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
   text-decoration: none;
 }
@@ -82,22 +101,24 @@ img {
 }
 
 .hero-text {
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
+  -ms-flex-preferred-size: 41%;
+      flex-basis: 41%;
   padding-right: 120px;
 }
 
 .hero-text__title {
   font-size: 41px;
-  font-weight: 700;
   line-height: 55px;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .hero-text__subtitle {
   display: inline-block;
-  margin-bottom: 70px;
+  margin-bottom: 67px;
   font-size: 20px;
+  font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
 }
 
@@ -113,7 +134,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 
 .hero-list__image {
