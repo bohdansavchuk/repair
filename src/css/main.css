@@ -361,4 +361,23 @@ img {
     padding-right: 0;
   }
 }
+
+@media (max-width: 375px) {
+  .header {
+    padding: 16px 0;
+  }
+  .header-wraper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__logo {
+    margin-right: 49px;
+  }
+  .header__button {
+    font-size: 10px;
+    padding: 13px 25px;
+    border-radius: 5px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
