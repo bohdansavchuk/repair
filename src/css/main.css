@@ -211,6 +211,7 @@ img {
   background-position: center right;
   background-size: contain;
   position: relative;
+  padding-bottom: 87px;
 }
 
 .offer:before {
