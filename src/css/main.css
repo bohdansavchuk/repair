@@ -78,6 +78,16 @@ img {
   border: 1px solid orange;
 }
 
+.btn-top {
+  position: fixed;
+  display: none;
+  bottom: 40px;
+  right: 40px;
+  padding: 10px 10px 5px 10px;
+  border: 2px solid #ffd200;
+  border-radius: 50%;
+}
+
 .header {
   padding: 8px 0;
 }
