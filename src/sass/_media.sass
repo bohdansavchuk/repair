@@ -26,10 +26,39 @@
     &s
       &-block
         justify-content: center
+  .brif
+    &__form
+      padding-left: 30px
+  .interview
+    padding-right: 30px
+    &__title
+      font-size: 20px
+      margin-bottom: 15px
+    &__subtitle
+      margin-bottom: 30px
+    &-list
+      &__text
+        font-size: 14px
+        max-width: 300px
+      &__number
+        margin-right: 20px
+  .form
+    &__title
+      font-size: 20px
+      margin-bottom: 15px
+    &__subtitle
+      margin-bottom: 30px
+
+@media (max-width: 880px)
+  .brif
+    padding: 10px 0 20px 0
+    
 @media (max-width: 768px)
   .container
     max-width: 650px
     width: 90%
+  .section
+   padding: 57px 0 44px 0 
   .header
     &__contacts
       display: none
@@ -70,6 +99,18 @@
     &s
       &-block
         flex-direction: column 
+  .brif
+    background-image: url('../img/brif-colorbg.jpg'), url('../img/brif-bg.jpg')
+    background-position: top center, center bottom
+    background-size: 100% 50%, cover
+    background-repeat: repeat-x, no-repeat 
+    &-block
+      flex-direction: column
+    &__interview
+      margin-bottom: 120px
+      padding-right: 0
+    &__form
+      padding-left: 0
 
 @media (max-width: 375px)
   .header
