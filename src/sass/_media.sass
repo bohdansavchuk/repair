@@ -57,17 +57,18 @@
     &-block
       padding-top: 59px
       padding-bottom: 77px
-
-@media (max-width: 880px)
-  .brif
-    padding: 10px 0 20px 0
     
 @media (max-width: 768px)
   .container
     max-width: 650px
     width: 90%
   .section
-   padding: 57px 0 44px 0 
+   padding: 46px 0 44px 0 
+   &-title
+     font-size: 18px
+     line-height: 1.4
+   &-subtitle
+     font-size: 16px 
   .header
     &__contacts
       display: none
@@ -81,6 +82,7 @@
       &__title
         font-size: 24px
         line-height: 1.4
+        margin: 0
         margin-bottom: 15px
       &__subtitle
         font-size: 16px
@@ -98,16 +100,27 @@
     &-block
       width: 100%
       padding-right: 0
+  .price
+    padding-bottom: 0
   .card
+    &__title
+      font-size: 16px
     &s
       justify-content: center
   .step
     margin-bottom: 30px
+    &__text
+      font-size: 12px
     &:after
       display: none
     &s
       &-block
         flex-direction: column 
+      &__title
+        margin-top: 0
+        margin-bottom: 30px
+      &__subtitle
+        margin-bottom: 45px
   .brif
     background-image: url('../img/brif-colorbg.jpg'), url('../img/brif-bg.jpg')
     background-position: top center, center bottom
@@ -120,6 +133,25 @@
       padding-right: 0
     &__form
       padding-left: 0
+  .interview
+    &__title
+      font-size: 18px
+      line-height: 1.4
+      margin-bottom: 30px
+    &__subtitle
+      font-size: 14px
+      margin-bottom: 65px
+    &-list
+      &__text
+        max-width: 225px
+  .form
+    &__title
+      margin-top: 0
+      font-size: 18px
+      line-height: 1.4
+      +bold
+    &__subtitle
+      font-size: 14px
   .footer
     display: flex
     flex-direction: column

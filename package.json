@@ -1,0 +1,30 @@
+{
+  "name": "repair",
+  "version": "1.0.0",
+  "description": "Сайт для компании \"Ремонт квартир\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohdansavchuk/repair.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohdansavchuk/repair/issues"
+  },
+  "homepage": "https://github.com/bohdansavchuk/repair#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-tinypng-compress": "^1.2.5"
+  }
+}
